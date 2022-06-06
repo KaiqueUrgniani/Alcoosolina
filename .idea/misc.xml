@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Luan/Desktop/Alcoosolina/app/src/main/res/layout/tela_mapa.xml" value="0.24675324675324675" />
+        <entry key="..\:/Users/Luan/Desktop/alcoosolina/app/src/main/res/drawable/ic_navigation.xml" value="0.2205" />
+        <entry key="..\:/Users/Luan/Desktop/alcoosolina/app/src/main/res/layout/tela_mapa.xml" value="0.33014354066985646" />
+        <entry key="..\:/Users/Luan/Documents/Android Studio/Alcoosolina/app/src/main/res/layout/activity_calc_custo_beneficio.xml" value="0.1625" />
+        <entry key="..\:/Users/Luan/Documents/Android Studio/Alcoosolina/app/src/main/res/layout/activity_calc_media.xml" value="0.1625" />
+        <entry key="..\:/Users/Luan/Documents/Android Studio/Alcoosolina/app/src/main/res/layout/activity_main.xml" value="0.1625" />
+        <entry key="..\:/Users/Luan/Documents/Android Studio/Alcoosolina/app/src/main/res/layout/activity_main2.xml" value="0.1625" />
+        <entry key="..\:/Users/Luan/Documents/Android Studio/Alcoosolina/app/src/main/res/layout/calc_custo_beneficio.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Luan/Documents/Android Studio/Alcoosolina/app/src/main/res/layout/calc_media.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Luan/Documents/Android Studio/Alcoosolina/app/src/main/res/layout/calculo_custo.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Luan/Documents/Android Studio/Alcoosolina/app/src/main/res/layout/calculo_media.xml" value="0.33" />
+        <entry key="..\:/Users/Luan/Documents/Android Studio/Alcoosolina/app/src/main/res/layout/mapa.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Luan/Documents/Android Studio/Alcoosolina/app/src/main/res/layout/resultado_final.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Luan/Documents/Android Studio/Alcoosolina/app/src/main/res/layout/tela_inicial.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Luan/Documents/Android Studio/Alcoosolina/app/src/main/res/layout/tela_mapa.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Luan/Documents/Android Studio/Alcoosolina/app/src/main/res/layout/tela_principal.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Luan/Documents/Android Studio/Alcoosolina/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.345" />
+        <entry key="..\:/Users/Luan/Documents/Android Studio/Alcoosolina/app/src/main/res/mipmap-anydpi-v26/icon.xml" value="0.2985" />
+        <entry key="..\:/Users/Luan/Documents/Android Studio/Alcoosolina/app/src/main/res/mipmap-anydpi-v26/icon_round.xml" value="0.2985" />
+        <entry key="..\:/Users/facec.lab04/Desktop/Alcoosolina/app/src/main/res/layout/calculo_custo.xml" value="0.3027806385169928" />
+        <entry key="..\:/Users/facec.lab04/Desktop/Alcoosolina/app/src/main/res/layout/calculo_media.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/facec.lab04/Desktop/Alcoosolina/app/src/main/res/layout/mapa.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/facec.lab04/Desktop/Alcoosolina/app/src/main/res/layout/resultado_final.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/facec.lab04/Desktop/Alcoosolina/app/src/main/res/layout/tela_inicial.xml" value="0.33" />
+        <entry key="..\:/Users/facec.lab04/Desktop/Alcoosolina/app/src/main/res/layout/tela_mapa.xml" value="0.18" />
+        <entry key="..\:/Users/facec.lab04/Desktop/alcoosolina/app/src/main/res/layout/calc_custo_beneficio.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/facec.lab04/Desktop/alcoosolina/app/src/main/res/layout/calc_media.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

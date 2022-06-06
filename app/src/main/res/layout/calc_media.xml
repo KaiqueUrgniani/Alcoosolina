@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center_horizontal"
+    tools:context=".CalcMedia"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Calcular Média"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Km Percorridos"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/kmPercorridos"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:inputType="numberDecimal"
+        android:maxLines="1"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Litros"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/litros"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:inputType="numberDecimal"
+        android:maxLines="1"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <RadioButton
+            android:id="@+id/rdGasolina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30sp"
+            android:text="Gasolina"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rdAlcool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Álcool  "
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/calcular_media"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="calcularMedia"
+        android:text="Calcular Média"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Média Álcool"
+            android:textColor="@color/black"
+            android:layout_marginEnd="50sp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Média Gasolina"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/resAlcool"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lpGa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="limparGasolina"
+            android:text="X"
+            android:layout_marginEnd="50sp"
+            android:textSize="20sp"
+            android:background="@color/white"/>
+
+        <TextView
+            android:id="@+id/resGasolina"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lpAl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="limparAlcool"
+            android:text="X"
+            android:textSize="20sp"
+            android:background="@color/white"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="trocar"
+        android:text="Custo Beneficio"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp" />
+</LinearLayout>
